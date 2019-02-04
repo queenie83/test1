@@ -1,0 +1,17 @@
+
+UserStory: As a website user
+           I want to be able to check on the webpage 
+           So that i can check if a vehicle exist
+ 
+
+           User wants to validate a vehicle
+
+ Scenairo :Given I entered the URL
+           And it takes me to the homepage
+           And the homepage shows me "search" section in the middle of the screen        
+           When I fill in the "search" field with vehicle registration number "OV12UYY"
+           And Click "find vehicle"
+           Then I should get a successful response
+           And the response should be "cover start" "09FEB2022:16:26" "Cover end" "18FEB2022:23:59"
+
+  
